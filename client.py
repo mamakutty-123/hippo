@@ -1,17 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Aug  8 11:02:42 2023
-
-@author: 19pd06
-"""
-
-
-
 # Import socket module
 import socket	
 from Crypto.Cipher import DES		
 
-DES_KEY = b'K Ashish'
+DES_KEY = b'Chandler Bing'
 cipher = DES.new(DES_KEY, DES.MODE_ECB)
 
 # Create a socket object
