@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
-
 # first of all import the socket library
 import socket			
 from Crypto.Cipher import DES
@@ -14,7 +7,7 @@ from Crypto.Random import get_random_bytes
 s = socket.socket()		
 print ("Socket successfully created")
 
-DES_KEY = b'K Ashish'
+DES_KEY = b'Chandler Bing'
 # reserve a port on your computer in our
 # case it is 12345 but it can be anything
 port = 12345			
